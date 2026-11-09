@@ -1,0 +1,77 @@
+lineage,resolution,cluster,level3
+Macrophage,0.5,0,Macrophage1
+Macrophage,0.5,1,Macrophage2
+Macrophage,0.5,2,Macrophage1
+Macrophage,0.5,3,Monocyte
+Macrophage,0.5,4,Macrophage3
+Macrophage,0.5,5,Macrophage4
+Macrophage,0.5,6,Macrophage5
+Macrophage,0.5,7,Macrophage6
+Macrophage,0.5,8,Macrophage7
+Macrophage,0.5,9,Macrophage8
+Macrophage,0.5,10,Macrophage9
+Macrophage,0.5,11,Macrophage10
+Macrophage,0.5,12,Macrophage11
+Macrophage,0.5,13,DROP
+Macrophage,0.5,14,Macrophage12
+Neutrophil,0.5,0,Neutrophil1
+Neutrophil,0.5,1,Neutrophil1
+Neutrophil,0.5,2,Neutrophil2
+Neutrophil,0.5,3,Neutrophil3
+Neutrophil,0.5,4,Neutrophil4
+Neutrophil,0.5,5,Neutrophil5
+Neutrophil,0.5,6,Neutrophil6
+Neutrophil,0.5,7,Neutrophil7
+Neutrophil,0.5,8,Neutrophil8
+Neutrophil,0.5,9,Neutrophil9
+Neutrophil,0.5,10,DROP
+Neutrophil,0.5,11,DROP
+Neutrophil,0.5,12,DROP
+Microglia,0.3,0,Microglia1
+Microglia,0.3,1,Microglia2
+Microglia,0.3,2,Microglia3
+Microglia,0.3,3,Microglia4
+Microglia,0.3,4,Microglia5
+Microglia,0.3,5,Microglia6
+Microglia,0.3,6,Microglia7
+Microglia,0.3,7,Microglia8
+Microglia,0.3,8,DROP
+Bcell,0.4,0,Pre-B Cell
+Bcell,0.4,1,B Cell
+Bcell,0.4,2,B progenitors-2
+Bcell,0.4,3,B progenitors-1
+Bcell,0.4,4,Pre-B Cell
+Bcell,0.4,5,DROP
+Bcell,0.4,6,B Cell
+Bcell,0.4,7,B1 Cell
+Bcell,0.4,8,Plasma Cell
+Bcell,0.4,9,Pro-B Cell
+Bcell,0.4,10,B Cell
+Bcell,0.4,11,DROP
+Bcell,0.4,12,DROP
+Tcell,0.2,0,CD8 T Cell
+Tcell,0.2,1,NK Cell
+Tcell,0.2,2,DROP
+Tcell,0.2,3,DROP
+Tcell,0.2,4,CD4 T Cell
+Tcell,0.2,5,DROP
+Tcell,0.2,6,DROP
+Tcell,0.2,7,γδ T Cell
+Tcell,0.2,8,T progenitors
+Tcell,0.2,9,DROP
+Tcell,0.2,10,CD8-IFN
+Erythroid,0.3,0,Erythroblast1
+Erythroid,0.3,1,Erythroblast1
+Erythroid,0.3,2,Erythroblast2
+Erythroid,0.3,3,Erythrocyte
+Erythroid,0.3,4,Erythroblast1
+NVU,0.3,0,homeostatic_endo
+NVU,0.3,1,homeostatic_Astro
+NVU,0.3,2,homeostatic_endo
+NVU,0.3,3,DAA
+NVU,0.3,4,homeostatic_pericyte
+NVU,0.3,5,Angiogenic-like_endo
+NVU,0.3,6,homeostatic_pericyte
+NVU,0.3,7,SMC
+NVU,0.3,8,VLMCs
+NVU,0.3,9,DROP

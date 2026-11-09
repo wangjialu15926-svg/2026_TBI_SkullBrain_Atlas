@@ -1,0 +1,8 @@
+lineage,path,label_column,annotation_state
+Macrophage,inputs/objects/Macrophage.rds,level3,auto
+Neutrophil,inputs/objects/Neutrophil.rds,level3,final
+Microglia,inputs/objects/Microglia.rds,level3,final
+Bcell,inputs/objects/Bcell.rds,level3,final
+Tcell,inputs/objects/Tcell.rds,level3,final
+Erythroid,inputs/objects/Erythroid.rds,subtype,final
+NVU,inputs/objects/NVU.rds,subtype,final

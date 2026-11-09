@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "numbered_R_entries": 38,
+  "matching_R_notebooks": 38,
+  "shared_function_modules": 10,
+  "configuration_files": 16,
+  "R_files_with_equivalent_executable_AST": 50,
+  "translated_display_message_types": 3,
+  "core_checks_passed": 58,
+  "configuration_source_metadata_cells_translated": 1665,
+  "scientific_configuration_values_changed": 0,
+  "chinese_content_hits": 0,
+  "non_ASCII_relative_path_hits": 0,
+  "original_source_files_unchanged": 234,
+  "local_translation_records": 252,
+  "historical_archives_retained_outside_release": true,
+  "real_study_data_rerun": false
+}

@@ -1,0 +1,35 @@
+cluster,level2
+0,Neutrophil
+1,Macrophage
+2,CPEC
+3,Microglia
+4,Neutrophil
+5,Endothelial Cell
+6,CPEC
+7,Microglia
+8,DC
+9,Astrocyte
+10,B Cell
+11,Microglia
+12,T Cell
+13,Microglia
+14,Pericyte
+15,Promyelocyte
+16,Neutrophil
+17,Erythrocyte
+18,Oligodendrocyte
+19,Macrophage
+20,Neutrophil
+21,Neuron
+22,Neutrophil
+23,B Cell
+24,CPEC
+25,Endothelial Cell
+26,CPEC
+27,Ependymal Cell
+28,Pericyte
+29,Macrophage
+30,Basophil
+31,Macrophage
+32,DROP
+33,DROP

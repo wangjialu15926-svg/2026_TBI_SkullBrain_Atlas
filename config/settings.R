@@ -1,0 +1,57 @@
+# All paths are relative to the project root unless explicitly absolute.
+cfg <- list(
+  seed = 1234L,
+  input_main = "inputs/objects/main_integrated.rds",
+  input_level2 = "inputs/objects/integrated_level2.rds",
+  input_reference = "inputs/reference/GSE192616_annotated.rds",
+  reference_label = "levelx",
+  reference_markers = "inputs/reference/skull_markers.csv",
+  sample_manifest = "config/sample_manifest.csv",
+  subtype_manifest = "config/subtype_inputs.csv",
+  input_mode = "subtype_objects", # Or "final_main" if main already contains final level3.
+  main_source = "configured", # "configured" uses input_main/input_level2; "generated" uses script 2 output.
+  subtype_mode = "annotated", # Or "recluster_review" to generate new clustering candidates for marker review.
+  accept_recomputed_cluster_map = FALSE,
+  accept_subtype_cluster_maps = FALSE,
+  expected_libraries = 31L,
+  expected_public_libraries = 25L,
+  min_feature = 500L,
+  max_mt = 10,
+  upper_feature_fraction = 0.98,
+  nfeatures = 2000L,
+  npcs = 50L,
+  dims = 1:30,
+  resolution = 0.5,
+  doublet_pN = 0.25,
+  doublet_pcs = 1:10,
+  tdeg_de_p = 0.05,
+  tdeg_de_abs_fc = 0.5,
+  tdeg_min_pct = 0.1,
+  tdeg_logfc_threshold = 0.25,
+  range_quantile = 0.25,
+  prediction_points = 100L,
+  module_score_nbin = 24L,
+  module_score_ctrl = 100L,
+  module_score_seed = 1234L,
+  go_p = 0.05,
+  go_q = 0.05,
+  # Raw two-sided Student p (var.equal=TRUE) is shown for proportion plots; BH is exported too.
+  proportion_label_p = "p_raw",
+  cellchat_min_cells = 50L,
+  cellchat_nboot = 100L,
+  cellchat_p = 0.05,
+  cellchat_seed = 1234L,
+  cellchat_epsilon = 1e-8,
+  heatmap_cell_ratio = 3.5,
+  tdeg_module_order = list(
+    Macrophage_Brain = c("C3", "C5", "C4", "C1", "C2", "C6"),
+    Macrophage_Skull = paste0("C", 1:4),
+    Neutrophil_Brain = c("C2", "C3", "C6", "C5", "C7", "C4", "C1"),
+    Neutrophil_Skull = c("C3", "C4", "C2", "C1"),
+    Microglia_Brain = c("C1", "C3", "C6", "C5", "C4", "C2"),
+    Bcell_Brain = c("C3", "C4", "C2", "C1"),
+    Bcell_Skull = c("C2", "C4", "C3", "C5", "C1"),
+    Tcell_Brain = c("C7", "C8", "C3", "C6", "C1", "C4", "C2", "C5"),
+    Tcell_Skull = paste0("C", 1:4)
+  )
+)

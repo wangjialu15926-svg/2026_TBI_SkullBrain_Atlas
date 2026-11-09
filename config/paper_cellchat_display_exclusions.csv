@@ -1,0 +1,61 @@
+tissue,category,panel_id,scope,Source,Target,source_notebook,source_cell
+Brain,intra_myeloid,original_cell_70,main,Microglia4,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia4,Microglia3,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage2,DC,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Neutrophil1,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage4,Microglia3,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Macrophage5,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Microglia3,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Microglia4,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia3,Macrophage5,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Neutrophil4,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Microglia2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia3,Neutrophil4,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Neutrophil4,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia5,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,Neutrophil1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage5,Microglia4,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia1,DC,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia4,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage1,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage5,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage5,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage1,Microglia4,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage1,Microglia3,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage1,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia5,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Neutrophil1,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Macrophage2,Microglia2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,DC,Macrophage1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia4,Macrophage1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,DC,Macrophage2,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia5,Microglia3,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Brain,intra_myeloid,original_cell_70,main,Microglia2,Microglia1,3.cellchat_brain_level3_intra_myeloid.ipynb,70
+Skull,intra_myeloid,original_cell_58,main,Neutrophil10,Neutrophil2,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Promyelocyte,DC,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil7,Promyelocyte,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Macrophage7,Macrophage10,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Macrophage7,Neutrophil2,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Promyelocyte,Neutrophil6,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil1,Promyelocyte,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil2,Macrophage10,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Promyelocyte,Neutrophil1,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil9,Macrophage10,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil7,Monocyte,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Neutrophil5,Monocyte,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Skull,intra_myeloid,original_cell_58,main,Monocyte,Basophil,3.cellchat_skull_level3_intra_myeloid.ipynb,58
+Brain,lymphoid_neuroglia,original_cell_62,main,NK Cell,SMC,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,CD8 T Cell,SMC,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,SMC,Pre-B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,SMC,B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Oligodendrocyte,Pre-B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Ependymal Cell,Pre-B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Ependymal Cell,B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,SMC,NK Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,NK Cell,Oligodendrocyte,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,homeostatic_Astro,B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Oligodendrocyte,NK Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,homeostatic_Astro,NK Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,CD8 T Cell,homeostatic_Astro,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Oligodendrocyte,B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
+Brain,lymphoid_neuroglia,original_cell_62,main,Angiogenic-like_endo,B Cell,6.cellchat_brain_level3_lymphoid_neuroglia.ipynb,62
