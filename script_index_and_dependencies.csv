@@ -1,0 +1,39 @@
+stage,R_script,notebook,description,prerequisites
+0,0.project_setup_and_checks.R,0.project_setup_and_checks.ipynb,"Environment, project paths and actual sample metadata checks",None
+1,1.library_QC_and_DoubletFinder.R,1.library_QC_and_DoubletFinder.ipynb,QC and DoubletFinder for 31 libraries; export retained cell counts,0; actual matrices for 31 libraries and completed sample_manifest
+2,2.Harmony_integration_and_level2_annotation.R,2.Harmony_integration_and_level2_annotation.ipynb,Global Harmony integration and marker-reviewed level2 cluster mapping,1; review the recomputed cluster map
+3,3.level3_annotation_and_cell_filter_sync.R,3.level3_annotation_and_cell_filter_sync.ipynb,Synchronize global 58-type annotation and filtered cell IDs; retain three local erythroid states and NVU parent relationships,"Configured main and seven lineage objects, or final_main mode"
+4,4.CellChat_full_object_construction.R,4.CellChat_full_object_construction.ipynb,Construct four Brain and three Skull CellChat objects without downsampling,3
+5,5.Figure1_S1_atlas_proportions_TableS1.R,5.Figure1_S1_atlas_proportions_TableS1.ipynb,Figure1 and S1 atlas panels and TableS1; pooled Figure1D/S1F/G proportions; library means and adjacent-time Student tests for S1H,3
+6,6.FigureS1_skull_reference_Spearman.R,6.FigureS1_skull_reference_Spearman.ipynb,Sixteen reference cell types; top 200 markers per cluster; Spearman correlation,3; annotated reference object
+7,7.Figure2_S2_macrophage_markers_proportions_GO.R,7.Figure2_S2_macrophage_markers_proportions_GO.ipynb,"Macrophage subtypes, marker/GO analysis and proportions",3
+8,8.Figure2_S2_macrophage_brain_tDEG.R,8.Figure2_S2_macrophage_brain_tDEG.ipynb,"Macrophage Brain GAM: six modules, k=4",3
+9,9.Figure2_S2_macrophage_skull_tDEG.R,9.Figure2_S2_macrophage_skull_tDEG.ipynb,"Macrophage Skull GAM: four modules, k=3",3
+10,10.Figure3_S3_neutrophil_markers_proportions_GO.R,10.Figure3_S3_neutrophil_markers_proportions_GO.ipynb,"Neutrophil1-9, marker/GO analysis and proportions",3
+11,11.FigureS3_neutrophil_brain_tDEG.R,11.FigureS3_neutrophil_brain_tDEG.ipynb,"Neutrophil Brain GAM: seven modules, k=4",3
+12,12.Figure3_neutrophil_skull_tDEG.R,12.Figure3_neutrophil_skull_tDEG.ipynb,"Neutrophil Skull GAM: four modules, k=3",3
+13,13.Figure3_S4_skull_myeloid_CellChat_TableS9.R,13.Figure3_S4_skull_myeloid_CellChat_TableS9.ipynb,Skull intra-myeloid communication panels and full table,4
+14,14.Figure4_S5_microglia_markers_proportions_GO.R,14.Figure4_S5_microglia_markers_proportions_GO.ipynb,"Microglia1-8, marker/GO analysis and proportions",3
+15,15.Figure4_S5_microglia_brain_tDEG.R,15.Figure4_S5_microglia_brain_tDEG.ipynb,"Microglia Brain GAM: six modules, k=4",3
+16,16.Figure4_S6_brain_myeloid_CellChat_TableS3.R,16.Figure4_S6_brain_myeloid_CellChat_TableS3.ipynb,Brain intra-myeloid communication panels and full table,4
+17,17.Figure5_S7_B_T_subtypes_and_combined_markers.R,17.Figure5_S7_B_T_subtypes_and_combined_markers.ipynb,Seven B-cell and six T-cell states; combined B/T markers,3
+18,18.Figure5_S7_Bcell_brain_tDEG.R,18.Figure5_S7_Bcell_brain_tDEG.ipynb,"B-cell Brain GAM: four modules, k=4",3
+19,19.Figure5_S7_Bcell_skull_tDEG.R,19.Figure5_S7_Bcell_skull_tDEG.ipynb,"B-cell Skull GAM: five modules, k=3",3
+20,20.Figure5_S7_Tcell_brain_tDEG.R,20.Figure5_S7_Tcell_brain_tDEG.ipynb,"T-cell Brain GAM: eight modules, k=4",3
+21,21.Figure5_S7_Tcell_skull_tDEG.R,21.Figure5_S7_Tcell_skull_tDEG.ipynb,"T-cell Skull GAM: four modules, k=3",3
+22,22.Figure2_3_S7_cross_compartment_module_UpSet.R,22.Figure2_3_S7_cross_compartment_module_UpSet.ipynb,Brain-Skull module intersections across four lineages,8/9/11/12/18/19/20/21
+23,23.FigureS8_S9_brain_myeloid_lymphoid_CellChat_TableS5.R,23.FigureS8_S9_brain_myeloid_lymphoid_CellChat_TableS5.ipynb,Brain myeloid-lymphoid communication panels and table,4
+24,24.FigureS10_S11_skull_myeloid_lymphoid_CellChat_TableS10.R,24.FigureS10_S11_skull_myeloid_lymphoid_CellChat_TableS10.ipynb,Skull myeloid-lymphoid communication panels and table,4
+25,25.FigureS9E_CD8T_microglia_coupling.R,25.FigureS9E_CD8T_microglia_coupling.ipynb,Calculate communication strengths and three cell-type proportions from actual objects,3/4
+26,26.Figure6_erythroid_subtypes_proportions_markers.R,26.Figure6_erythroid_subtypes_proportions_markers.ipynb,Three Skull erythroid states,3
+27,27.Figure6_erythroid_Slingshot_overall.R,27.Figure6_erythroid_Slingshot_overall.ipynb,UMAP-based Slingshot; Erythroblast1 start; first-lineage pseudotime,3
+28,28.Figure6_S12_erythroid_Monocle2_gene_modules.R,28.Figure6_S12_erythroid_Monocle2_gene_modules.ipynb,Slingshot-pseudotime-associated genes and four gene modules,27
+29,29.FigureS12_erythroid_D0_D1_D7_trajectories.R,29.FigureS12_erythroid_D0_D1_D7_trajectories.ipynb,"Independent Slingshot and Monocle2 gene analyses for D0, D1 and D7",3
+30,30.Figure6_S12_neurovascular_glial_seven_states.R,30.Figure6_S12_neurovascular_glial_seven_states.ipynb,Seven NVU states; all-cell-denominator two-step weighted proportions; three-parent UMAP and source-selected expression panels,3
+31,31.Figure6_S13_brain_myeloid_neuroglia_CellChat_TableS4.R,31.Figure6_S13_brain_myeloid_neuroglia_CellChat_TableS4.ipynb,Brain myeloid-neuroglial communication,4
+32,32.FigureS14_S15_brain_lymphoid_neuroglia_CellChat_TableS7.R,32.FigureS14_S15_brain_lymphoid_neuroglia_CellChat_TableS7.ipynb,Brain lymphoid-neuroglial communication,4
+33,33.TableS6_brain_intra_neuroglial_CellChat.R,33.TableS6_brain_intra_neuroglial_CellChat.ipynb,Full Brain intra-neuroglial table only,4
+34,34.TableS8_brain_intra_lymphoid_CellChat.R,34.TableS8_brain_intra_lymphoid_CellChat.ipynb,Full Brain intra-lymphoid table only,4
+35,35.TableS11_skull_intra_lymphoid_CellChat.R,35.TableS11_skull_intra_lymphoid_CellChat.ipynb,Full Skull intra-lymphoid table only,4
+36,36.CellChat_global_metrics_TableS2.R,36.CellChat_global_metrics_TableS2.ipynb,Nine-category interaction unions and time-point metrics,4
+37,37.final_consistency_and_software_versions.R,37.final_consistency_and_software_versions.ipynb,"Check input fingerprints, deleted IDs, nine tDEG groups, seven CellChat objects and supplementary table identities",All required analyses; stages 3-36 and Tables S1-S11

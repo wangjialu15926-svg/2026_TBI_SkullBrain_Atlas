@@ -1,6 +1,3 @@
-# 2026_TBI_SkullBrain_Atlas
-Analysis code for the single-cell multi-omics atlas of the skull–brain immune compartments in traumatic brain injury
-
 # TBI Brain-Skull Single-Cell Analysis Scripts
 
 This repository contains the organized R analysis code for the TBI brain–skull study. Scripts are numbered 0–37 in manuscript order. Each numbered `.R` file has a matching R-kernel `.ipynb` with the same code; run either format, not both. The implementation is in `functions/`; the short numbered files are analysis entry points.
@@ -69,4 +66,3 @@ Historical UMAP-coordinate filtering is not automatically reconstructed by these
 Do not apply old coordinate thresholds to a newly computed UMAP. Use the original embedding and verified retained/excluded IDs. Additional B-cell level4 and CD8 subtyping branches must not automatically be treated as global level3 exclusions. This translation does not enable new filtering or change analysis parameters.
 
 The author selected the MIT License for the GitHub repository. Retain its existing LICENSE file and verify the copyright holder/year. This folder does not fabricate a replacement copyright statement.
-

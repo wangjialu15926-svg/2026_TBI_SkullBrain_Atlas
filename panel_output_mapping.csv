@@ -1,0 +1,20 @@
+entry,panel,output_base,definition
+30,Fig6K,results/Figure6_S12/NVU/Fig6K_NVU_proportion_in_all_cells,Within-NVU subtype fraction multiplied by the daily three-level2-parent fraction among all Brain and Skull cells
+30,S12D,results/Figure6_S12/NVU/S12D_NVU_three_level2_UMAP,UMAP colored by the three parent level2 types
+30,S12E,results/Figure6_S12/NVU/S12E_NVU_proportion_in_all_cells_lines,Same all-cell denominator as Figure6K
+30,Fig6L,"results/Figure6_S12/NVU/source_NVU_{Astro,Endo,Pericyte}_mean_SEM_lines",Source gene groups and corresponding subtypes; descriptive cell-level SE
+7/10/14/17/26/30,Lineage UMAP,"results/<Figure>/<lineage>/subtype_UMAP_{Brain,Skull}",Independent plots by tissue
+7/10/14/17/26/30,Additional UMAP,"results/<Figure>/<lineage>/subtype_UMAP_{Brain,Skull}_by_Day",Day panels within each tissue
+7/10/14/26,marker,results/<Figure>/<lineage>/source_selected_marker_dotplot,Fixed markers from source scripts; retain fixed B/T and NVU gene lists
+Marker/tDEG/trajectory entries,GO,results/<analysis>/GO_BP_selected_bubble,Reproducible GO selection; default top three per group after adjusted p<0.05; editable description list; no historical selection CSV required
+7/10/14/17/26/30,Subtype proportion lines,results/<Figure>/<lineage>/source_subtype_temporal_Brain_vs_Skull,Separate subtype panels across tissues; the author selects panels for display
+7/10/14/17/30,Fig2G and related panels,results/<Figure>/<lineage>/Brain_library_mean_line_<cell_type>,Independent Brain subtype library means and SEM; raw Student p versus D0; do not guess the six displayed subtypes
+7,Fig2K,results/Figure2_S2/Macrophage/Fig2K_S100a8_S100a9_Brain_vs_Skull,Mean-expression comparison
+7,Fig2K,results/Figure2_S2/Macrophage/Fig2K_S100a8_S100a9_foldchange_vs_D0,D0-normalized comparison from source code
+Nine tDEG entries,Author-selected representative genes,results/tDEG/<key>/original_cell_<n>_author_selected_subtype_trends,175 source gene-subtype choices; no automatic argmax; excluded subtypes remain excluded and are recorded
+13/16/23/24/31/32,Communication directions,"results/cellchat/<category>/source_directional_{Count,Weight}",Both directions plus total
+13/16/23/24/31/32,Communication totals,"results/cellchat/<category>/source_total_{Count,Weight}_bars",Category-specific metric panels
+13/16/23/24/31/32,sender/receiver,"results/cellchat/<category>/source_sender_receiver_{all_significant,curated_LR}_bars",All significant interactions and curated LR pairs are displayed separately
+13/16/23/31/32,Author-selected core interactions,"results/cellchat/<category>/original_cell_<n>_source_LR_{ALL,MAIN}","Six source core-cell choices, 51 selected rows and 60 display exclusions; full supplementary tables are unchanged"
+22,UpSet genes,results/module_overlap/<lineage>/source_all_module_pairs_overlap_genes.csv,All pairwise module intersections with author-declared trend correspondence
+37,Global 58-type comparison,results/audit/confirmed_level3_count_comparison.csv,Compare supplied counts without forcing observed values
